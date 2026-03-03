@@ -20,6 +20,6 @@ Route::get('/berita', function () {
     return view('berita');
 })->name('berita');
 
-Route::get('/portfolio', function () {
-    return view('portfolio');
-})->name('portfolio');
+Route::get('/portofolio', function () {
+    return view('portofolio');
+})->name('portofolio');
