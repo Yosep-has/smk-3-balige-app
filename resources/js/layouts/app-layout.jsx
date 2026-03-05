@@ -53,9 +53,9 @@ export default function AppLayout({ children }) {
             title: "Admin",
             items: [
                 {
-                    title: "Hak Akses",
-                    url: route("hak-akses"),
-                    icon: Icon.IconLock,
+                    title: "SKL",
+                    url: route("skl"),
+                    icon: Icon.IconCertificate,
                 },
             ],
         },
@@ -138,3 +138,4 @@ export default function AppLayout({ children }) {
         </>
     );
 }
+
