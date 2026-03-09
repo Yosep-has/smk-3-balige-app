@@ -23,3 +23,7 @@ Route::get('/berita', function () {
 Route::get('/portofolio', function () {
     return view('portofolio');
 })->name('portofolio');
+
+Route::get('/unduh-skl', function () {
+    return view('unduh-skl');
+})->name('unduh-skl');
