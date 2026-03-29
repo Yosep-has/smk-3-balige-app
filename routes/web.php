@@ -2,12 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-*/
-
 Route::get('/', function () {
     return view('beranda');
 })->name('beranda');
@@ -25,5 +19,5 @@ Route::get('/portofolio', function () {
 })->name('portofolio');
 
 Route::get('/unduh-skl', function () {
-    return view('unduh-skl');
+    return view('app');
 })->name('unduh-skl');
