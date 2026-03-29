@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('beranda');
 })->name('beranda');
 
+Route::get('/unduh-skl', function () {
+    return view('app');
+})->name('unduh-skl');
+
 Route::get('/profil', function () {
     return view('profil');
 })->name('profil');
@@ -18,6 +22,3 @@ Route::get('/portofolio', function () {
     return view('portofolio');
 })->name('portofolio');
 
-Route::get('/unduh-skl', function () {
-    return view('app');
-})->name('unduh-skl');
