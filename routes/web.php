@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+Route::get('/unduh-skl', [SklController::class, 'publicIndex'])->name('skl.public');
 Route::get('/', function () {
     return view('beranda');
 })->name('beranda');
