@@ -1,14 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\App\skl\SklController;
+
 Route::get('/unduh-skl', [SklController::class, 'publicIndex'])->name('skl.public');
+
 Route::get('/', function () {
     return view('beranda');
 })->name('beranda');
-
-Route::get('/unduh-skl', function () {
-    return view('app');
-})->name('unduh-skl');
 
 Route::get('/profil', function () {
     return view('profil');
